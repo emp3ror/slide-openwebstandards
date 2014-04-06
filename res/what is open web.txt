@@ -1,0 +1,66 @@
+What is the Open Web?
+
+17:32 on 2010-10-08 (ttk.me b/48A1)
+I just arrived at O'Reilly's Sebastopol Campus where they're holding a *Camp event on the open web, eponymously named "Open Web Foo Camp". A few days ago I was speaking with Jim Dwyer of the New York Times about the Federated Indie Social Web vs. sharecropping and site death (more on that in another post), and he happened to ask me (probably because I mentioned it in passing), what is, or what do I mean by "the open web".
+
+At the time I didn't have a working definition, but apparently provided an answer good enough for a self-described non-technical journalist to "get" what is the open web. Here's roughly what I told Jim, off the top of my head:
+
+For me the Open Web is about the ability to openly do three kinds things:
+
+publish content and applications on the web in open standards
+code and implement the web standards that that content/apps depend on
+access and use content / code / web-apps / implementations
+Each of these merit a bit of expansion.
+
+Publishing content and applications
+The web has brought with it the biggest revolutionary advance in access to publishing since the printing press. It's quite cheap to buy a domain (a few dollars per year), cheap to buy web hosting service (a few dollars per month), easy to open up a built-in or free text editor on any popular computer to write some HTML and CSS, and use a built-in or free FTP (or other file-transfer program, e.g. scp) to publish your content to the web, at a permalink instantly viewable by millions world-wide.
+
+Yes, with a few dollars a month and a few hours, you can publish and reach hundreds of millions of people. I call that revolutionary.
+
+This ability to openly publish depends on a few things:
+
+open formats for freely publishing what you write, photograph, video and otherwise create, author, or code (e.g. HTML, CSS, Javascript, JPEG, PNG, Ogg, WebM etc.).
+domain name registrars and web hosting services that, like phone companies, don't judge your content.
+cheap internet access that doesn't discriminate based on domains
+A few non-open-web examples:
+
+formats: many media formats controlled by patent pools, e.g. even publishing H.264 video is at the mercy of "MPEG LA". Supposedly it's free to publish free video, but if you want to publish video and charge for it, you have to pay them royalties. Not open.
+domain name registrars: just this week, NIC.ly, the registrar for .ly domains, shut down vb.ly due to text referring to adult content and offensive imagery [according to conservative Libyan Islamic Law]. Not open.
+censored internet access: numerous countries censor access to the internet.
+All of those are examples of threats to the open web. For more on how H.264 is not open, and neither is Flash, despite all the rhetoric from Apple and Adobe respectively, I highly recommend reading Ben Ward's blog post: Understand The Web.
+
+Coding and implementing web standards
+The open web is fully dependent on browsers, search engines and other applications and services being able to code and implement all the web standards (formats, protocols) that authors use to publish their creative works. The browsers, search engines and other such "user agents" in turn depend on web standards that are:
+
+openly documented, in this day and age, on the web itself.
+freely accessible. there should be no charge to view a web standards specification.
+unencumbered by patents, either patent-free, or available under unconditional royalty free licenses.
+Most W3C and IETF standards for example, meet these criteria. So do open public-domain based efforts like microformats.org and other modern "social web" standards (too many to list here, maybe I'll add a few links later :)
+
+A few non-open-web examples:
+
+Numerous ISO standards. E.g. ISO-8601, the standard that web standards have subsetted to represent dates and times on the web. You have to pay to download ISO-8601 and other ISO standards. Not open.
+Flash. Not anyone can freely implement support for the constantly evolving Flash format. It's Adobe's proprietary code, with who knows how many patents that apply to it (no I haven't checked).
+Thankfully, as the process of how we develop web standards themselves evolves, we get better and better at both providing very openly accessible and implementable standards, as well have become more sensitive to attempts to thwart the opennness of web standards.
+
+Access to content and applications on the web
+The web, and the internet as a whole, depends on the independence of content and addressing (i.e. domain names) and devices. You must be able to serve and access any kind of content across any domain name on any web device. Obviously not all devices will be capable enough to support all formats, but that should have nothing to do with the nature of the content itself.
+
+This open access depends on the open ability to browse and use any web page or application (i.e. URL) on your:
+
+web browsing device
+internet service
+And this must be without censorship per domain, URL, content-type, or nature of the content.
+
+A few non-open-web examples:
+
+The aforementioned countries that censor access to specific sites.
+Internet Service Providers that do traffic shaping, or block certain types of internet traffic. For example, cable company consolidation threatens this open access.
+Much of this "open access" requirement for the open web is also known as "net neutrality", and championed by none other than Senator Al Franken as the foremost free speech issue of our time.
+
+And that's my rough working definiton of what is the open web. In summary:
+
+open content and application publishing
+open ability to code and implement the standards that such content depends on
+open access to content, web-applications, web standards implementations (browsers), and the internet.
+I think this is a good starting point for a discussion of what is the open web, and look forward to feedback and learning from my colleagues, both online, and in-person this weekend.

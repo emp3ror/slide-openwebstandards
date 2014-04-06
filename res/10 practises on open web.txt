@@ -1,0 +1,76 @@
+10 Practices for Good Open Web Standards Development
+
+09:55 on 2011-06-17 (ttk.me b/4CN1)
+Last year I wrote a brief post on What is the Open Web? in which I listed open web standards as a key component, web standards that are:
+
+openly documented on the web itself
+freely accessible with no charges to view or download
+unencumbered by patents, e.g. patent-free, or available under unconditional royalty free licenses (like CC0 and OWFa 1.0).
+These are good high level requirements for evaluating a finished web standard, but provide only clues for what went into it and how it was developed.
+
+You can judge a piece of apple pie by its appearance, texture, flavor and other finished qualities, but you have no idea what ingredients went into it. Were the apples organically farmed? How about the flour? What kind of oils or butter were used? Any preservatives or corn by-products?
+
+Apple filling Or how was the pie prepared? Was it mass-produced in an industrial oven? Crafted by a neighborhood bakery? Or lovingly made by a friend or relative? Just as there are good ways and bad ways to bake an apple pie, there are good ways and bad ways to develop open web standards.
+
+Standards & Sausages
+In the past many have compared standards to sausages, in that you really don't want to know how they're made. That may have been true twenty years ago, before the web, but no longer needs to be the case.
+
+Over the past ten years Michael Pollan and Alice Waters have done research and written books to make us question where our food comes from, how it's made, and taught us how to make better food choices. Similarly, we now have sufficient experience with modern standards communities to question how web standards are made, and thus make better choices about both adopting and developing them.
+
+Besides, wouldn't you prefer a slice of organic home made apple pie over industrial mystery meat sausage?
+
+There's a whole spectrum of ways to develop open web standards that's expanding over time as we learn new practices both good and bad. We can and must always strive to be better at it. We've significantly evolved our best practices over the past couple of decades, and yet we must stay ever vigilant against bad faith behaviors, both known and novel.
+
+Here is a list of good practices, many gleaned from my personal experiences with various open standards groups and communities. The presence of these makes a standards effort more open, the absence, less so. You might recognize some/most items on this list from my previous post which explained their historical relevance to the CSS Working Group.
+
+This post explores some of the how and why of these emergent practices, patterns, and some examples of corresponding anti-patterns. Suggested additions welcome.
+
+develop it openly.
+This may be the most important aspect. You might not consider every idea or brainstorm worthy of publishing publicly on the world wide web. That's ok, understandable, and maybe even shows humility. Instead you're more comfortable sharing an idea privately with a few friends or colleagues, maybe even at a private event. No problem, take notes. The instant you've received enough feedback sufficient to convince you that you might have something worthy of consideration, even (perhaps especially!) before you've implemented it, publish it on the public web. On a wiki or a blog. Sharecropped on a content hosting service or on your own site (preferred). As plain text or rich semantic HTML (preferred). Whatever and however, just put it somewhere on the public web with a permalink.
+Anti-pattern:
+Resist the temptation to develop an idea until it's "complete" or until you've got other companies to sign-on - i.e. avoid the trap of "delayed open" development or duopolistic/oligopolistic announcements. Publish your ideas early and ...
+iterate openly.
+Whether you publish your standards brainstorm ideas on a blog, a wiki, or check them into github, iterate on them openly. Publish, save, commit new versions with any degree of stable improvement over current versions. Keep old versions and a public interface to access them all. Preferably make sure each version has its own permalink. This provides greater transparency and visibility into the thinking behind a standard, its current state, and how it got there (provide at least minimal check-in / edit summary comments with each change). Even small edits reflect activity, attention, stability/flux and are thus quite useful.
+Anti-patterns:
+As convenient as it may seem, avoid simply updating a static URL in place. It's ok to have a "give me the latest version" URL, but only if you can also access specific iterations at their own date(-time)-stamped permalinks. Avoid the temptation to wait until each iteration feels "complete" (kind of a "delayed open iteration" problem). Avoid deleting older revisions just because they're "old" - people may have linked to them, and often early changes provide insight into why things ended up a certain way.
+use an open wiki.
+I have Kevin Marks to thank for first suggesting that we write-up some of the early microformats on an open wiki. I was skeptical at first, being used to W3C's more formal specification process. Starting with XOXO (fairly sure that was the first wiki-based microformat) we've used wikis to conceive and iterate. Some microformats like rel-license, hCard, and hCalendar started as brainstorm presentations and blog posts, but were quickly captured on wiki pages and iterated there since. Wikis are also good for documenting research, examples, and even decent for issues, feedback, and capturing multiple points of view. In general it's best to use wikis for all content related to your standards effort. Be sure to allow anyone to trivially create an account or use an OpenID to login. You may want to consider disallowing anonymous edits as the resultant spam can overwhelm a new wiki that has few contributors/gardeners. Finally, having an "Edit" link/button as well as a browsable history on open standards sends a profoundly strong message of community accessibility, accountability, and participation.
+Anti-patterns:
+Avoid creating a private wiki for an open standard. Avoid using a single account for edits (make everyone use their own account - this helps accountability). Avoid bureaucratic sign-up processes - the reason you put things on a wiki is to make it easier for casual readers to participate. Don't force users to read pages of bespoke legalese etc. just to create an account to contribute. Use standard licenses and contributor agreements such as CC0 and OWFa CLA 1.0 which casual readers can accept (or not) based on previous evaluation.
+discuss openly.
+In addition to blogging and/or tweeting etc. publicly about your potential standards ideas, discuss them publicly. Start with existing applicable public wikis, mailing lists and/or IRC channels (preferably both) rather than creating new ones.
+Anti-patterns:
+Minimize private discussions. Sometimes, even with iterations, you want to bounce an idea off of a trusted colleague, which is a completely sensible thing to do. Regardless, minimize them and don't fall into the trap of preferring private discussions because you're afraid of public criticism. If you do have a private meeting, document the outcomes or results promptly. Finally, avoid prematurely creating a new list or IRC channel. Rarely is an idea worthy of its own forum. However, if/when the need arises to create a new group...
+open email list and IRC channel.
+(create if necessary). If your idea both attracts sufficient attention from others (at least two more is a good minimum) and exceeds the scope of existing mailing lists or IRC channels, you may have to create a new IRC channel and mailing list. Make them open for anyone to join, preferably requiring open contribution agreements, e.g. CC0 and OWFa.
+Anti-patterns:
+Do not create a closed list or IRC channel for discussing an open standard (sounds obvious but you'd be surprised how many times people keep doing it).
+open IRC logs.
+When discussions happen in IRC, sometimes people say useful interesting things that are worth citing. Set up a bot to (auto-)join the channel and log the channel somewhere on the public web with permalinks at least for each day, and preferably for each line of communication. This helps encourage creative thinking in the low-barrier to participation environment of IRC (think/type) knowing that the ideas won't be lost.
+Anti-patterns:
+Avoid requiring a login just to read IRC logs. Avoid blocking search engines from indexing IRC logs.
+open list archives.
+Provide open access to mailing list archives, without requiring any login, and indexable by search engines. Ideally provide a user interface to search the archives. Similar to IRC, sometimes ideas originate or issues are resolve on mailing lists, thus it helps to cite those messages as well.
+Anti-patterns:
+Avoid forcing users to login or join a list just to view the archives. Avoid blocking search engines from indexing the archives.
+send wiki edits to IRC.
+I learned indirectly from folks active in the Wikipedia community that's it quite useful to have a bot that watches for wiki edits and summarizes them realtime in a community IRC channel. We implemented such a bot fairly early in microformats.org's history. Most recently Aaron Parecki setup the Loqi bot to monitor changes from the microformats wiki and report them to the #microformats IRC channel. It's great for (more) quickly catching spam or other vandalism and reverting it. More importantly the bot provides a nice sense of what wiki pages are receiving more attention, and each such update provides a implicit invitation to participate on the wiki.
+Anti-pattern:
+Avoid using URL shorteners to abbreviate MediaWiki (or other) wiki diff URLs.
+open test suites.
+Every time I've seen a test suite published publicly for a standard I've seen both the standard improve, and more importantly the interoperability and completeness of implementations improve. Start with at least one simple test per feature (e.g. element, attribute, property, value type) and then expand combinations, edge cases, and error tests from there. Be sure to publish the test suite just like the specification, with versioned permalinks and open licenses like CC0 and OWFa. You want to encourage people to copy existing test cases, make variants, and publicly share them.
+Anti-patterns:
+Avoid private or payment required test suites. Avoid requiring logins to view test suites. Avoid browser sniffing on test suite tests.
+open implementation reports.
+A test suite helps exercise features of a spec but interoperable implementations are what really prove them out. Publish the results of running an implementation thru a test suite so that others can verify it for themselves. It tends to also help motivate other implementers to keep up. Be sure to link from such reports to the specific version of the test suite used, as well as noting the specific product/implementation version (preferably with download URL).
+Anti-patterns:
+Avoid summary-only implementation reports - always link them to the detailed reports from which summaries were derived for verifiability. And similarly to above, avoid private or payment required implementation reports.
+Adopt those ten practices and you'll find that you develop open web standards that are both of higher quality, and often faster as well.
+
+Despite the "10 Practices..." title of this post, there's one more that's worth taking it to 11.
+
+openly encourage broader community involvement early and often.
+While it may be easier to reach some form of "consensus" by working by yourself, with a couple of friends, or as one of a few large companies, standards efforts which actively encourage community involvement tend to be better, and more open as a result. Reach out early to the folks you think would use your standard, those that would author, develop, debug, and test, especially in related communities. Let them know what you're working on, and how to lurk or contribute to your efforts.
+Anti-patterns:
+Avoid falling for the lone inventor in the garage myth. If you think you can do a better job inventing something privately in your garage, or behind your corporate firewall, these days you're almost certainly wrong. This didn't used to be the case, and thus we have numerous industry origin myths about the one or small number of inventors that went off and did something novel. These days, the open web is evolving and iterating much faster than any one individual, company, or even a small number thereof can do by themselves. This is a new phenomenon since the advent of web search engines of the late 1990s / early 2000s, and the subsequent greatly increased discoverability (and thus faster feedback loops) of innovations occurring in the open, on the open web, and in the past five or so years, in real-time.
+The above practices, patterns (and anti-patterns) are based on personal experiences (both good and bad) with existing open standards communities and organizations such as W3C (whose working groups vary wildly in the implementation of the above), IETF (same), microformats.org, WHATWG, and Activity Streams. In fact, it would be interesting to see a table of various open standards efforts, with columns for each of the above good practices, noting which communities do which things well, and which things they could improve. Good material for perhaps a future blog post.
